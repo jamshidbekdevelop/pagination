@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import Posts from "./Componets/Posts";
+// import "./styles.css";
 
-function App() {
+// export default function App() {
+//   return (
+//     <div className="App">
+//       {/* <h1>Hello CodeSandbox</h1>
+//       <hr />
+
+//       <Posts /> */}
+      
+//     </div>
+//   );
+// }
+import React from "react";
+import "./styles.css";
+import { Pagination } from "./App.test";
+// import { favorit } from "./mock";
+
+export default function App() {
+  // const [page, setPage] = useState(1);
+  // const ay = favorit.length
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Pagination  />
     </div>
   );
 }
-
-export default App;
